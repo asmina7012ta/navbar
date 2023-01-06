@@ -12,37 +12,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c3e046747e.js" crossorigin="anonymous"></script>
- 
+ <style>
+#a1{ 
+   height: 500px;
+   
+}
+body{
+  height: 1000px
+   
+}
+.form-control {
+    border:none;
+}
+.btnsum{
+  color: rgb(255, 255, 255);
+  background-color: rgb(89, 26, 148);
+  
+}
+.btnpri{
+  border-radius: 10px;
+  background-color:rgb(89, 26, 148) ;
+  color: rgb(255, 255, 255);
+}
+#bb1{
+  height: 50px;
+  
+  border-radius: 50px;
+  background-color:  rgb(89, 26, 148) ;
+  color: rgb(255, 255, 255);
+}
+
+
+
+ </style>
 </head>
 <body>
 
   
-    <nav class="navbar navbar-expand-lg "  style="background-color: rgb(129, 42, 210); height: 35px" >
-    <div class="container">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-             <a class="nav-link   ms-5 text-white " aria-current="page" href="#">Have any question? +91 8086 651 651</a> 
-             </li>
+    <nav class="navbar navbar-expand-lg "  style="background-color: rgb(89, 26, 148); height: 35px" >
+        <div class="container">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link   ms-5 text-white " aria-current="page" href="#">Have any question? +91 8086 651 651</a> 
+              </li>
           </ul>
 
-         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link  me-5 text-white " aria-current="page" href="#"> <i class="fa-solid fa-phone"></i> +91 8086 651 651 <i class="fa-solid fa-envelope"></i> contact@luminartechnolab.com</a>
-                </li>
-            </ul>
-            
-        
-
-    </div>
-    </nav>
-
-   
-  <nav class="navbar navbar-expand-lg   " style="background-color: rgb(255, 255, 255); height: 70px">
-    <div class="container">
-      <a class="navbar-brand text-white ms-5" href="#"><img src="./logo/logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                 <a class="nav-link  me-5 text-white " aria-current="page" href="#"> <i class="fa-solid fa-phone"></i> +91 8086 651 651 <i class="fa-solid fa-envelope"></i> contact@luminartechnolab.com</a>
+              </li>
+          </ul>
+      </div>
+    </nav>  
+    <nav class="navbar navbar-expand-lg  sticky-top  " style="background-color: rgb(255, 255, 255); height: 70px">
+      <div class="container">
+         <a class="navbar-brand text-white ms-5"  href="#"><img src="./logo/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
            
@@ -72,6 +99,116 @@
       </div>
     </div>
   </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div> -->
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+        <img id="a1" src="./logo/first.jpeg" class="d-block w-100 " alt="...">
+        
+        <div class="carousel-caption d-none d-md-block "  >
+          <h1 class="text-start "> Kerala's No.1 IT Finishing School 100% <br> Placement Assistance</h1>
+          <p class="text-start">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br> technologies like BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+          <button id="bb1" class="text-start" type="button" class="btn">VIEW COURSES</button> </div>
+        </div>
+     
+    <div class="carousel-item" data-bs-interval="3000">
+        <img id="a1" src="./logo/second.jpeg" class="d-block w-100" alt="...">
+        
+        <div class="carousel-caption d-none d-md-block ">
+          <h1 class="text-start " class="mt-5">Data Science,ML & AI <br>
+            Big Data - Hadoop & Spark <br>
+             Python Data Science</h1>
+          <p class="text-start">We LUMINAR TECHNOLAB offers best softwaretraining and placements in emerging <br> technolagies like big data, hadoop,spark,data science.Mechine Learning. Deep learning and <br> AI</p>
+          <button id="bb1" class="text-start" type="button" class="btn">VIEW COURSES</button>
+        </div>
+      
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+
+
+
+
+
+  <button type="button" class="btnpri" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container">
+
+          
+        <div class="text-start" > 
+            <h1 class="text-center ">Get Training Quote for free</h1>
+       
+            <form  action="" class="border   p-4 mt-4   ">
+            <div class=" mt-2">
+                <!-- <label for="na">Name</label><br> -->
+                <input  type="text" id="na" class="form-control " placeholder="Name"><br>
+            </div>
+            <div class=" mt-2"> 
+              <!-- <label for="ema">email-address</label><br> -->
+              <input type="email" id="ema"class="form-control" placeholder="Email"><br>
+          </div>
+
+            <div class=" mt-2"> 
+                <!-- <label for="ag">Phone Number</label><br> -->
+                <input type="text" id="ag" class="form-control"placeholder="Phone Number"><br>
+            </div>
+            <div>
+              <!-- <label for="se">select district</label> -->
+              <select name=""  class="form-control"  id="se" >
+              <option value="">Select Course Intrested In</option>
+              <option value="">Data Science-ML-AI-Big Data with Cloud And Tableau</option>
+              <option value="">Python Django-Angular-Full Stack Web Development Expert</option>
+              <option value="">Software testing specialist</option>
+              <option value="">MEARN Stack Web Development Expert-Angular&React</option>
+              <option value="">Business Analystics-Power BI& Tableau</option>
+              <option value="">Android Developer Expert Training in kochi-Flutter</option>
+              <option value="">PYTHON-DATA SCIENCE with ML-AI-& TABLEAU</option>
+              </select><br>
+          </div>
+           
+            <div class="p-2 mt-2">
+                <!-- <label for="ad">Comments</label><br><br> -->
+                <textarea name="" id="ad"  class="form-control" cols="20" rows="5" placeholder="Comments"></textarea><br>
+            </div>   
+            <button type="button" class="btnsum " data-bs-dismiss="modal">SUBMIT</button>
+            </form>
+           </div> 
+          </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+      <div  class="col-lg-6 col-md-6 col-sm-12 p-5 mt-5  ">
+<p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</p>  
+  </div>
+  
+    <div  class="col-lg-6 col-md-6 col-sm-12 p-5 ">
+      <img src="./logo/proj1.jpeg" alt="">
+</div>
+</div>
 
 </body>
 </html>
